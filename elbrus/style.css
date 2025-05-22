@@ -1,0 +1,102 @@
+ul{
+    padding: 0;
+    list-style-type: none ;
+}
+.container{
+    max-width:1130px ;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+h1,h2,h3, h4,p{
+    font-family: 'Open-sans', sans-serif;
+}
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 60px;
+}
+h2{
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 100px;
+}
+p{
+    font-size: 15px;
+}
+
+.sparc p{
+    width: 70%;
+    background-color: black;
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    font-weight: bold;
+    
+}
+.sparc {
+    display: flex;
+}
+.sparc h3{
+    width: 30%;
+    text-align: center;
+    margin: auto 0;
+    font-size: 30px;
+}
+.processor .carta{
+    width: 40%;
+    padding: 10px;
+    background-color: black;
+    border-radius: 10px;
+    margin: auto 0;
+}
+.processor .text_proces { 
+    width: 60%;
+    margin: auto auto;
+    width: 600px;
+    font-size: 25px;
+}
+.pr1 .text_proces{
+    margin-left: 10%;
+}
+.processor {
+    display: flex;
+    margin-top: 40px;
+}
+.carta ul{
+    background-color: white;
+    border-radius: 10px;
+    padding: 5px;
+
+    
+}
+.carta ul li p span{
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.pr2 .text_proces{
+    margin-right: 10%;
+}
+h4{
+    color: white;
+}
+.carta img{
+    width: 100%;
+}
+.text_elbr{
+    font-size: 25px;
+}
+.text_elbr a{
+    text-decoration: none;
+    color: blue;
+
+}
+.ul_elbr{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.ul_elbr .carta{
+    width: 250px;
+}
